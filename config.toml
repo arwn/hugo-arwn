@@ -1,4 +1,4 @@
-baseURL = "https://www.arwn.github.io/"
+baseURL = "https://arwn.github.io/"
 languageCode = "en-us"
 title = "arwn"
 theme = "nofancy"
