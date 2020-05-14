@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "arwn"
+theme = "nofancy"
+
+[params]
+hilight = "default"
+topmenu = "categories"
+
+[author]
+name = "Aren Windham"
+github = "arwn"
+linkedin = "aren"
+twitter = "ArenWindham"
