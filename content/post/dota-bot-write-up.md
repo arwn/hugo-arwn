@@ -47,7 +47,7 @@ action that can happen throughout the game.
 
 ```Awk
 if($0 ~ /Building: npc_Dota_.*_(tower|rax)/){
-printf "tower %s died at %d", $2, systime()
+    printf "tower %s died at %d", $2, systime()
 }
 ```
 
@@ -84,11 +84,11 @@ go httpListener()
 
 // spin up workers
 for i, worker := range(workers) {
-fmt.Printf("Starting worker %s\n", worker)
-err := startWorker(worker)
-if err != nil {
-log.Print(err)
-}
+    fmt.Printf("Starting worker %s\n", worker)
+    err := startWorker(worker)
+    if err != nil {
+        log.Print(err)
+    }
 }
 
 // wait for every worker to complete their games
