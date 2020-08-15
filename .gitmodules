@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:arwn/arwn.github.io.git
 	branch = master
+[submodule "themes/notrack"]
+	path = themes/notrack
+	url = https://github.com/gevhaz/hugo-theme-notrack

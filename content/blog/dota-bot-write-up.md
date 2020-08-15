@@ -6,8 +6,7 @@ draft: false
 # Introduction
 
 The problem is this: We have a Dota2 bot that is becoming increasingly hard to
-program. Our bot is built with a heuristics based [state machine]
-(https://en.wikipedia.org/wiki/Finite-state_machine). Each state has a hard
+program. Our bot is built with a heuristics based [state machine](https://en.wikipedia.org/wiki/Finite-state_machine). Each state has a hard
 coded weight that will give precedence to an action that can be taken that
 moment. Dota is an incredibly complex game and it is nearly impossible to tell
 if a change to a weight is beneficial or if the bot just got lucky one game. We

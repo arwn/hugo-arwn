@@ -1,14 +1,43 @@
-baseURL = "https://arwn.github.io/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "arwn"
-theme = "nofancy"
+theme = "notrack"
+mainSections = ["blog"]
+# disqusShortname = "example"
+paginate = 4
+
 
 [params]
-hilight = "default"
-topmenu = "categories"
+  author = "Aren R. Windham"
+  siteHeading = "" # defaults to author
+  showBlogLatest = true
+  mainSections = ["blog"]
+  showTaxonomyLinks = true
+  nBlogLatest = 4 # number of blog post om the home page
+  blogLatestHeading = "Posts"
 
-[author]
-name = "Aren Windham"
-github = "arwn"
-linkedin = "aren"
-twitter = "ArenWindham"
+  [params.social]
+    github = "arwn"
+    linkedin = "aren"
+    email = "windham.aren@protonmail.com"
+
+[taxonomies]
+  year = "year"
+  month = "month"
+  tags = "tags"
+  categories = "categories"
+
+[permalinks]
+  blog = "/blog/:year/:month/:slug"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "algol"
+    tabWidth = 4
