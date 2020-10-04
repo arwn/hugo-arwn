@@ -1,6 +1,8 @@
 ---
 title: "Dota Bot Write Up"
 date: 2020-05-13T18:38:30-07:00
+Tags: ["AI", "DotA"]
+Categories: []
 draft: false
 ---
 # Introduction
