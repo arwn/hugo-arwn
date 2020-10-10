@@ -75,11 +75,9 @@ Add the 9front iso by
 5. click Choose
 6. click OK
 
-You are now ready to...
-
 # Installing 9front
 
-_note: official install docs are located at http://fqa.9front.org/fqa4.html_
+_note: official install docs are located at [http://fqa.9front.org/fqa4.html](http://fqa.9front.org/fqa4.html)_
 
 Start the Plan 9 virtal machine: Machine>Start>Normal Start.
 VirtualBox should now boot into the 9front install image.
